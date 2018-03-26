@@ -1,0 +1,14 @@
+{
+  "name": "hypelink-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "travis": "hyperlink -r build/index.html --canonicalroot https://webpack.js.org/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hyperlink": "github:Munter/hyperlink#65a8626"
+  }
+}
