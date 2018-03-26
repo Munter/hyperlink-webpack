@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "travis": "hyperlink -r build/index.html --canonicalroot https://webpack.js.org/"
+    "travis": "hyperlink -r build/index.html --canonicalroot https://webpack.js.org/ | node check-links.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "hyperlink": "github:Munter/hyperlink#65a8626"
+    "duplexer": "^0.1.1",
+    "hyperlink": "github:Munter/hyperlink#65a8626",
+    "minimist": "^1.2.0",
+    "tap-parser": "^7.0.0",
+    "through2": "^2.0.3"
   }
 }
